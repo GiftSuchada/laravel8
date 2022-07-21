@@ -99,3 +99,18 @@ Route::get("/gallery/cat", function () {
 
     return view("test/cat", compact("cat"));
 });
+
+
+Route::get("/teacher" , function (){
+	return view("teacher");
+});
+
+Route::get("/student" , function (){
+	return view("student");
+});
+
+Route::get("/theme" , function (){
+	return view("theme");
+});
+
+
